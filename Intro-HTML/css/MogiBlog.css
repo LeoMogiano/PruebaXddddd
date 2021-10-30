@@ -1,0 +1,199 @@
+#titulo {
+    color:rgb(171, 255, 115);
+}
+
+p.texto {
+    color:rgb(98, 194, 69);
+}
+
+p.especial {
+    color:cornflowerblue;
+}
+
+div p {
+    color: darkgreen;
+}
+
+div h2, div h3 {
+    color:deeppink;
+}
+
+/* div h3 {
+    color:deeppink;
+} */
+
+* {
+    font-size: 24px;
+}
+
+.propiedad {
+    /* color:sienna;
+    border: 5px red ridge; */
+    border-style: solid;
+    border-color: royalblue;
+    /* Para ponerle borde radius */
+    border-radius: 5px; 
+    border-width: 5px;
+    color: sienna;
+}
+
+/* 
+    dotted
+    dashed
+    solid
+    double
+    
+    3D Object
+    groove
+    ridge
+    inset
+    outset
+*/
+
+#fondo {
+    background-color: rgb(255, 100, 100);
+    text-align: right;
+    color: chocolate;
+    height: 250px;
+    background-image: url('../img/LuffySad.jpg');
+    background-size: auto;
+    /* cover */
+    background-repeat: no-repeat;
+    
+    background-position: center ;
+    /* Todo esto se puede hacer en una linea pero si o si luego es el height */
+    /* top
+    center 
+    bottom  */
+}
+
+.margen {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: chocolate;
+    margin: 15px ;
+    padding: 20px ;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    height: 80px;
+    width: 150px;
+    overflow: scroll;
+    /* outline: 1px solid red; */
+    /* Margin esta fuera del elemento en si y padding esta dentro de el */
+}
+.alin {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    /* text-decoration: line-through; */
+    text-decoration: underline;
+}
+
+a:link {
+    color:seagreen;
+}
+
+a:visited {
+    color:sienna;
+}
+
+a:hover {
+    color: skyblue;
+}
+
+a:active {
+    color:rgb(255, 0, 0)
+}
+
+/* Ese es el orden como condicion */
+ul {
+    background-color:rgb(216, 161, 122);
+    padding: 30px;
+    border-color: rgba(212, 111, 38, 0.829);
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 4px;
+    margin: 2px;
+    list-style-type: square;
+    list-style-position: inside;
+
+}
+
+table#uno {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th, td {
+    font-family: 'Nunito', sans-serif;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(23, 214, 125);
+    padding: 5px;
+}
+
+th {
+    background-color: rgb(160, 229, 160);
+    text-align: left;
+}
+
+tr:hover {
+    background-color: rgb(118, 106, 187);
+    cursor: pointer;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+span {
+    display: block;
+    /* display: none; */
+    max-width: 250px;
+    background-color: lawngreen;
+}
+
+.inline {
+    display: inline;
+}
+
+#positionn {
+    position: relative;
+    /* left: 20px; */
+    
+}
+
+.left {
+    float: left;
+    width: 200px;
+}
+
+.contenedora {
+    height: 200px;
+}
+
+.right {
+    float: right;
+    border-color: aquamarine;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 20px;
+    padding: 10px;
+    font-size: 80px;
+}
+
+.lineabloque {
+    display: inline-block;
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+}
+
+.centradopa {
+    text-align: center;
+    background-color: rgb(192, 135, 95);
+    margin: 0 auto;
+    padding: 50px 0;
+}
